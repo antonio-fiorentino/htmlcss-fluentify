@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  height: 600px;
+  width: 100%;
+  background-color: darkblue;
+}
+.banner{
+  height: 100px;
+  width: 100%;
+  background-color: lightgrey;
+}
+.colonne::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.colonne{
+  margin: auto;
+  width: 80%;
+  margin-bottom: 100px;
+}
+.colonna1{
+  height: 400px;
+  width: 33%;
+  float: left;
+  padding-right: 10px;
+}
+.colonna2{
+  height: 400px;
+  width: 33%;
+  float: left;
+  padding: 0px 5px;
+}
+.colonna3{
+  height: 400px;
+  width: 33%;
+  float: left;
+  padding-left: 10px;
+}
+.destra{
+  background-color: black;
+  height: 400px;
+  width: 100%;
+}
+.centro{
+  background-color: black;
+  height: 400px;
+  width: 100%;
+}
+.sinistra{
+  background-color: black;
+  height: 400px;
+  width: 100%;
+}
+.livelli::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.livelli{
+  margin: auto;
+  width: 80%;
+  margin-bottom: 50px;
+}
+.immagine{
+  width: 45%;
+  height: 500px;
+  background-color: grey;
+  margin-right: 10%;
+  float: left;
+}
+.testo{
+  width: 45%;
+  height: 400px;
+  background-color: grey;
+  float: left;
+}
+footer{
+  height: 100px;
+  width: 100%;
+  background-color: lightgrey;
+}
