@@ -1,17 +1,74 @@
+
+/* COMMON SETTINGS, FONTS AND UTILITY CLASSES */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+.container{
+  margin: auto;
+  width: 80%;
+
+}
+/* \END COMMON SETTINGS, FONTS AND UTILITY CLASSES */
+
+/* STYLE */
+
 header{
   height: 600px;
   width: 100%;
   background-color: darkblue;
+  position: relative;
+}
+
+nav{
+  height: 100px;
+  line-height: 100px;
+}
+
+.main-menu-destra > ul > li:first-of-type{
+  margin-right: 60px;
+}
+.main-menu-sinistra{
+ }
+ul{
+  display: inline-block;
+}
+li{
+  display: inline-block;
+  color: #fff;
+  margin-right: 20px;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+h1{
+  font-size: 50px;
+  color: white;
+}
+.titolo{
+  line-height: 100px;
+}
+header > img{
+  height: 400px;
+  width: 1000px;
+  position: absolute;
+  right:  0px;
+  bottom: 0;
 }
 .banner{
   height: 100px;
   width: 100%;
   background-color: lightgrey;
+}
+.txtbanner{
+  text-align: center;
+  padding:25px;
+}
+h3{
+  color: grey;
 }
 .colonne::after{
   content: "";
@@ -25,19 +82,19 @@ header{
 }
 .colonna1{
   height: 400px;
-  width: 33%;
+  width: 33.333%;
   float: left;
   padding-right: 10px;
 }
 .colonna2{
   height: 400px;
-  width: 33%;
+  width: 33.333%;
   float: left;
   padding: 0px 5px;
 }
 .colonna3{
   height: 400px;
-  width: 33%;
+  width: 33.333%;
   float: left;
   padding-left: 10px;
 }
